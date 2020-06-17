@@ -7,11 +7,11 @@
     "description": "Icons sourced from https://favpng.com"
   },
   "icons": {
-    "phone": "/assets/phone.png",
-    "email": "/assets/letter.png",
-    "home": "/assets/house.png",
-    "gitHub": "/assets/github.png",
-    "linkedIn": "/assets/linkedin.png"
+    "phone": "./assets/phone.png",
+    "email": "./assets/letter.png",
+    "home": "./assets/house.png",
+    "gitHub": "./assets/github.png",
+    "linkedIn": "./assets/linkedin.png"
   },
   "author": {
     "name": "Justin Sandahl",

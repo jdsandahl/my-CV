@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-logo: /assets/logo4.png
+logo: ../assets/logo4.png
 
 title: Justin Sandahl
 email: test@test.com
