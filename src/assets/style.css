@@ -8,6 +8,10 @@ body {
 }
 
 /* Global section headings and dividers */
+a {
+    text-decoration: none;
+    color: black;
+}
 
 hr {
     border: none;
@@ -349,6 +353,10 @@ blockquote ul {
 }
 
 /* left column main headings */
+.projects-container a {
+    text-decoration: none;
+    color: #184343;
+}
 
 .projects-container h4 {
     grid-area: heading4;
