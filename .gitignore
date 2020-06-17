@@ -1,4 +1,6 @@
 node_modules
 _site
+_scripts
+
 src/resume.md
 src/index.md

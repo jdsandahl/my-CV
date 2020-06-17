@@ -122,11 +122,11 @@ Suspendisse nec pellentesque mi, et elementum sem.
 #### **Example Project1** *Example Project1*
 ##### `Example Project1` `Example Project1`
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Fusce imperdiet maximus ipsum id iaculis.
-Morbi ultrices quam et ullamcorper ullamcorper.
-Vivamus dignissim nisl quis purus volutpat, eget rhoncus libero pulvinar.
-Sed pretium dignissim ex, in sollicitudin ex suscipit nec.
+>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>- Fusce imperdiet maximus ipsum id iaculis.
+>- Morbi ultrices quam et ullamcorper ullamcorper.
+>- Vivamus dignissim nisl quis purus volutpat, eget rhoncus libero pulvinar.
+
 
 </div>
 
@@ -135,11 +135,10 @@ Sed pretium dignissim ex, in sollicitudin ex suscipit nec.
 #### **Example Project2** *Example Project2*
 ##### `Example Project2` `Example Project2`
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Fusce imperdiet maximus ipsum id iaculis.
-Morbi ultrices quam et ullamcorper ullamcorper.
-Vivamus dignissim nisl quis purus volutpat, eget rhoncus libero pulvinar.
-Sed pretium dignissim ex, in sollicitudin ex suscipit nec.
+>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>- Fusce imperdiet maximus ipsum id iaculis.
+>- Morbi ultrices quam et ullamcorper ullamcorper.
+>- Vivamus dignissim nisl quis purus volutpat, eget rhoncus libero pulvinar.
 
 </div>
 
@@ -148,11 +147,10 @@ Sed pretium dignissim ex, in sollicitudin ex suscipit nec.
 #### **Example Project3** *Example Project3*
 ##### `Example Project3` `Example Project3`
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Fusce imperdiet maximus ipsum id iaculis.
-Morbi ultrices quam et ullamcorper ullamcorper.
-Vivamus dignissim nisl quis purus volutpat, eget rhoncus libero pulvinar.
-Sed pretium dignissim ex, in sollicitudin ex suscipit nec.
+>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>- Fusce imperdiet maximus ipsum id iaculis.
+>- Morbi ultrices quam et ullamcorper ullamcorper.
+>- Vivamus dignissim nisl quis purus volutpat, eget rhoncus libero pulvinar.
 
 </div>
 
