@@ -6,19 +6,52 @@
     <title>
       {{ renderData.title or title or metadata.title}}
     </title>
-    <meta
-      name="metadata.description"
-      content="" />
+    <meta name="{{metadata.title}}" content="{{metadata.description}}" />
+    <meta name="{{metadata.images.source}}" content="{{metadata.images.description}}" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
   </head>
 
   <body>
     <header>
-      <h1>{{ metadata.title }}</h1>
-      <div>
-        {%- for nav in collections.nav -%}
-        <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a><br />
-        {%- endfor -%}
-      </div>
+      <div class="header-container">
+        <div class="logo">  
+          <img src={{logo}} alt="">
+        </div> 
+        <div class="contact">
+          
+          <div class="flex-detail">
+            <img src="{{ metadata.icons.phone }}" alt="{{ title }}">
+            <div class="details">
+              {{phone}} 
+            </div>
+            <img src={{ metadata.icons.email }} alt="">
+            <div class="details">
+              {{email}} 
+            </div>
+            <img src={{ metadata.icons.home }} alt="">
+            <div class="details address">
+              {{address}} 
+            </div>
+          </div>
+
+          <div class="flex-detail">
+            <img src="{{ metadata.icons.gitHub }}" alt="{{ title }}">
+            <div class="details">
+              {{github}} 
+            </div>
+            <img src={{ metadata.icons.linkedIn }} alt="">
+            <div class="details">
+              {{linkedin}} 
+            </div>
+            <!--
+            <img src={{ metadata.icons.home }} alt="">
+            <div class="details">
+              Other: {{other}} 
+            </div>
+            --!>
+          </div>
+        </div>
+      </div>  
     </header>
     <main>
       {{ content | safe }}

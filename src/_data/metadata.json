@@ -1,7 +1,18 @@
 {
-  "title": "Example Blog",
+  "title": "Example CV",
   "url": "https://example.blog",
-  "description": "My first blog",
+  "description": "My digital CV - created using 11ty/Eleventy static site generator, Markdown, icons from https://favpng.com",
+  "images": {
+    "source": "https://favepng.com",
+    "description": "Icons sourced from https://favpng.com"
+  },
+  "icons": {
+    "phone": "/assets/phone.png",
+    "email": "/assets/letter.png",
+    "home": "/assets/house.png",
+    "gitHub": "/assets/github.png",
+    "linkedIn": "/assets/linkedin.png"
+  },
   "author": {
     "name": "Justin Sandahl",
     "email": "me@test.com"

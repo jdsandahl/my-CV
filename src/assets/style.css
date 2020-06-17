@@ -1,0 +1,462 @@
+body {
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin:auto;
+    padding: 10px;
+    background-color: #fcfefb;
+    font-size: small;
+}
+
+/* Global section headings and dividers */
+
+hr {
+    border: none;
+}
+
+h2 {
+    background-color: #1d2a28;
+    color:#ffffff;
+    padding: 5px;
+    margin: 0;
+    margin-top: 6px;
+}
+
+blockquote {
+    border: 1px solid;
+    display: grid;
+    margin: 3px;
+    padding: 7px;
+    background-color: #d9d9d9;
+}
+
+blockquote blockquote {
+    border: 1px solid;
+    display: grid;
+    margin: 3px;
+    padding: 7px;
+    background-color: #fcfefb;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid;
+    display: grid;
+    margin: 5px;
+    padding: 10px;
+    background-color: #fcfefb;
+
+}
+
+blockquote ul {
+    list-style: none;
+    border: none;
+    display: grid;
+    margin: 5px;
+    padding: 2px;
+    background-color: #fcfefb;
+}
+
+/* flex elements for the header section */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    flex: 0 1 auto;
+    min-width: 150px; 
+    justify-content: center;
+}
+
+.logo img {
+    flex: auto;
+    max-width: 190px;
+}
+
+/* Flex container for the contact details */
+.contact {
+    flex: 0 1 auto;
+    align-self: center;
+    margin: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+    max-width: 175px;
+    margin-top: 20px;    
+}
+
+.details {
+    flex: 1 1 (100% - 50px);
+    padding: 5px;
+    align-self: center;
+    min-width: 120px;
+    max-width: 130px;
+}
+
+.flex-detail img {
+    flex: 1 1 (100% - 50px);
+    max-width: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.address {
+    
+}
+
+
+/* End Header Section */
+
+/* Grid grid-container for main sections, Experience & Education */
+
+.grid-container {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 190px auto;
+    grid-template-rows: 46px 50px auto auto;
+    grid-template-areas:
+        "heading4 description"
+        "heading5 description"
+        ". description"
+        ". description";
+
+    margin: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 1px;
+    background-color: #d9d9d9;
+}
+
+/* left column main headings */
+
+.grid-container h4 {
+    grid-area: heading4;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.grid-container h4 strong, .grid-container h4 code {
+    
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 185px;
+    padding: 2px;
+}
+
+.grid-container h4 em {
+    color: #184343;
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 185px;
+    padding: 2px;
+}
+
+.grid-container h4 img {
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    max-width: 50px;
+    padding: 5px;
+}
+
+/* Left column sub-headings */
+
+.grid-container h5 {
+    grid-area: heading5;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.grid-container h5 code {
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    max-width: 185px;
+    padding: 2px;
+}
+
+/* Right side details sections */
+
+.grid-container blockquote {
+    background-color: #fcfefb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-area: description;
+}
+
+.grid-container ul {
+    list-style: disc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-area: description;
+}
+
+.grid-container ul li {
+    flex: 0 1 auto;
+    justify-content: flex-start;
+    margin-left: 7px;
+}
+
+.grid-container ul li p {
+    flex: 0 1 auto;
+    padding: 2px;
+    margin: 0px;
+}
+
+/* Grid container for skills section */
+
+.skills-container {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 85px auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "heading4 description";
+
+    margin: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 1px;
+    background-color: #d9d9d9;
+}
+
+/* left column main headings */
+
+.skills-container h4 {
+    grid-area: heading4;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skills-container h4 strong, .skills-container h4 code {
+    
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 185px;
+    padding: 2px;
+}
+
+.skills-container h4 em {
+    color: #184343;
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 185px;
+    padding: 2px;
+}
+
+.skills-container h4 img {
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0px 8px;
+}
+
+/* Left column sub-headings */
+
+.skills-container h5 {
+    grid-area: heading5;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skills-container h5 code {
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    max-width: 185px;
+    padding: 2px;
+}
+
+/* Right side details sections */
+
+.skills-container blockquote {
+    background-color: #fcfefb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-area: description;
+}
+
+.skills-container blockquote p {
+    flex: 0 1 auto;
+    margin: 0px;
+}
+
+.skills-container ul {
+    list-style: disc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-area: description;
+}
+
+.skills-container ul li {
+    flex: 0 1 auto;
+    justify-content: flex-start;
+    margin-left: 7px;
+}
+
+.skills-container ul li p {
+    flex: 0 1 auto;
+    padding: 2px;
+    margin: 0px;
+}
+
+/* projects section */
+.projects-container-flex {
+    display: flex;
+}
+
+
+.projects-container {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "heading4"
+        "heading5" 
+        "description";
+
+    margin: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 1px;
+    background-color: #d9d9d9;
+}
+
+/* left column main headings */
+
+.projects-container h4 {
+    grid-area: heading4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-container h4 strong, .projects-container h4 code {
+    
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 40px;
+    padding: 2px;
+}
+
+.projects-container h4 em {
+    color: #184343;
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 40px;
+    padding: 2px;
+}
+
+.projects-container h4 img {
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    min-width: 40px;
+    max-height: 40px;
+    padding: 0px 8px;
+}
+
+/* Left column sub-headings */
+
+.projects-container h5 {
+    grid-area: heading5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-container h5 code {
+    flex: 0 1 auto;
+    font-family: sans-serif;
+    max-width: 185px;
+    padding: 2px;
+}
+
+/* Right side details sections */
+
+.projects-container blockquote {
+    background-color: #fcfefb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-area: description;
+}
+
+.projects-container blockquote p {
+    flex: 0 1 auto;
+    margin: 0px;
+}
+
+.projects-container ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-area: description;
+}
+
+.projects-container ul li {
+    flex: 0 1 auto;
+    justify-content: flex-start;
+    margin-left: 7px;
+}
+
+.projects-container ul li p {
+    flex: 0 1 auto;
+    padding: 2px;
+    margin: 0px;
+}
+
+
+
+@media only screen and (max-width: 649px) {
+
+    .logo {
+        display: flex;
+        flex: 1 1 auto;
+        min-width: 150px; 
+        justify-content: center;
+    }
+
+    .grid-container {
+        
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "heading4 heading5"
+            "description description";
+    }
+
+    .projects-container-flex {
+        flex-wrap: wrap;
+    }
+}
