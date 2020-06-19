@@ -362,8 +362,9 @@ blockquote ul {
     grid-area: heading4;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -397,8 +398,9 @@ blockquote ul {
     grid-area: heading5;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 }
 
