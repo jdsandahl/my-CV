@@ -26,24 +26,21 @@ h2 {
 }
 
 blockquote {
-    border: 1px solid;
     display: grid;
-    margin: 3px;
+    margin: 5px;
     padding: 7px;
     background-color: #e7e7e7;
 }
 
 blockquote blockquote {
-    border: 1px solid;
     display: grid;
-    margin: 3px;
+    margin: -1px;
     padding: 7px;
     background-color: #fcfefb;
 }
 
 ul {
     list-style: none;
-    border: 1px solid;
     display: grid;
     margin: 5px;
     padding: 10px;
@@ -119,17 +116,12 @@ blockquote ul {
     padding: 5px;
 }
 
-.address {
-    
-}
-
-
 /* End Header Section */
 
 /* Grid grid-container for main sections, Experience & Education */
 
 .grid-container {
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: grid;
     grid-template-columns: 190px auto;
     grid-template-rows: 46px 50px auto auto;
@@ -142,7 +134,7 @@ blockquote ul {
     margin: 5px;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding: 1px;
+    padding: 2px;
     background-color: #e7e7e7;
 }
 
@@ -229,7 +221,6 @@ blockquote ul {
 /* Grid container for skills section */
 
 .skills-container {
-    border: 1px solid;
     display: grid;
     grid-template-columns: 85px auto;
     grid-template-rows: 1fr;
@@ -239,7 +230,7 @@ blockquote ul {
     margin: 5px;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding: 1px;
+    padding: 2px;
     background-color: #e7e7e7;
 }
 
@@ -336,7 +327,6 @@ blockquote ul {
 
 
 .projects-container {
-    border: 1px solid;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -345,10 +335,10 @@ blockquote ul {
         "heading5" 
         "description";
 
-    margin: 5px;
+    margin: 3px;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding: 1px;
+    padding: 2px;
     background-color: #e7e7e7;
 }
 
